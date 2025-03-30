@@ -2,20 +2,32 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaPinterest } from 'react-icons/fa';
 import { useTheme } from '@/context/ThemeContext';
 
 const socialLinks = [
   {
     name: 'GitHub',
     icon: <FaGithub className="w-5 h-5" />,
-    url: '#',
+    url: 'https://github.com/navneeth-p',
     color: 'hover:bg-[#333] hover:border-[#333]'
   },
   {
     name: 'LinkedIn',
     icon: <FaLinkedin className="w-5 h-5" />,
-    url: '#',
+    url: 'https://www.linkedin.com/in/navneeth-premanand/',
+    color: 'hover:bg-[#0077b5] hover:border-[#0077b5]'
+  }
+  {
+    name: 'Instagram',
+    icon: <FaGithub className="w-5 h-5" />,
+    url: 'https://github.com/navneeth-p',
+    color: 'hover:bg-[#333] hover:border-[#333]'
+  },
+  {
+    name: 'Pinterest',
+    icon: <FaPinterest className="w-5 h-5" />,
+    url: 'https://www.pinterest.com/navneethpremanand/',
     color: 'hover:bg-[#0077b5] hover:border-[#0077b5]'
   }
 ];
