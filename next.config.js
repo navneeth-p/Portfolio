@@ -13,8 +13,8 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    // Only use unoptimized in production
-    unoptimized: !isDev,
+    // Always use unoptimized images for static export compatibility
+    unoptimized: true,
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
@@ -41,7 +41,6 @@ const nextConfig = {
   ...(isDev ? {} : {
     output: 'export',
     distDir: 'out',
-    assetPrefix: '/',
     trailingSlash: true, // Add trailing slashes for better Netlify compatibility
   }),
 }

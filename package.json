@@ -13,7 +13,7 @@
     "serve": "npx serve out",
     "prod-build": "npm run clean && NODE_ENV=production npm run build",
     "clean": "rimraf .next out",
-    "netlify-build": "npm run clean && npm run build"
+    "netlify-build": "echo 'Starting Netlify build...' && npm run clean && NODE_ENV=production next build && next-sitemap && echo 'Build completed successfully!'"
   },
   "dependencies": {
     "canvas": "^3.1.0",
@@ -40,7 +40,7 @@
     "typescript": "^5.3.3"
   },
   "engines": {
-    "node": ">=18.17.0",
-    "npm": ">=9.6.7"
+    "node": "18.19.1",
+    "npm": "9.6.7"
   }
 }

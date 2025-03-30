@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run netlify-build"
   publish = "out"
 
 # Handle SPA routing
@@ -10,9 +10,10 @@
 
 [build.environment]
   NEXT_TELEMETRY_DISABLED = "1"
-  NODE_VERSION = "18.x"
+  NODE_VERSION = "18.19.1"
+  NPM_FLAGS = "--no-audit --no-fund"
 
-# Enable brotli compression for better performance
+# Enable security headers and compression
 [[headers]]
   for = "/*"
   [headers.values]
@@ -21,6 +22,7 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'none';"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
 # Cache optimization for static assets
 [[headers]]
@@ -47,14 +49,4 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
   [plugins.inputs]
-    skipInstall = true
-
-# Security headers
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()" 
+    skipInstall = true 
