@@ -10,6 +10,7 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    unoptimized: true, // For static export, images must be unoptimized
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
@@ -31,6 +32,7 @@ const nextConfig = {
   },
   output: 'export', // For Netlify static hosting
   distDir: 'out',
+  assetPrefix: '/', // Ensure assets are loaded from the correct path
 }
 
 module.exports = withBundleAnalyzer(nextConfig) 

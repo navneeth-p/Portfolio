@@ -185,8 +185,7 @@ const Projects = () => {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover"
                   loading="lazy"
-                  placeholder="blur"
-                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QCBhuQAAAABJRU5ErkJggg=="
+                  unoptimized
                 />
                 <div className={`absolute inset-0 ${theme === 'dark' ? 'bg-gradient-to-t from-dark to-transparent' : 'bg-gradient-to-t from-white/80 to-transparent'}`}></div>
               </motion.div>
@@ -249,8 +248,7 @@ const Projects = () => {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                     className="object-cover"
                     priority
-                    placeholder="blur"
-                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QCBhuQAAAABJRU5ErkJggg=="
+                    unoptimized
                   />
                   <div className={`absolute inset-0 ${theme === 'dark' ? 'bg-gradient-to-t from-dark to-transparent' : 'bg-gradient-to-t from-white/90 to-transparent'}`}></div>
                   <button 

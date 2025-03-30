@@ -110,8 +110,7 @@ const Hero = () => {
                 sizes="(max-width: 768px) 280px, 320px"
                 className="rounded-full object-cover border-4 border-accent shadow-lg shadow-accent/30"
                 priority
-                placeholder="blur"
-                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QCBhuQAAAABJRU5ErkJggg=="
+                unoptimized
               />
               <motion.div 
                 className="absolute -inset-2 rounded-full border border-accent/30"
