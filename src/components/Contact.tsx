@@ -17,17 +17,17 @@ const socialLinks = [
     icon: <FaLinkedin className="w-5 h-5" />,
     url: 'https://www.linkedin.com/in/navneeth-premanand/',
     color: 'hover:bg-[#0077b5] hover:border-[#0077b5]'
-  }
+  },
   {
     name: 'Instagram',
-    icon: <FaGithub className="w-5 h-5" />,
-    url: 'https://github.com/navneeth-p',
+    icon: <FaInstagram className="w-5 h-5" />,
+    url: 'https://www.instagram.com/navneeth._.p/',
     color: 'hover:bg-[#333] hover:border-[#333]'
   },
   {
     name: 'Pinterest',
     icon: <FaPinterest className="w-5 h-5" />,
-    url: 'https://www.pinterest.com/navneethpremanand/',
+    url: 'https://in.pinterest.com/navneeth_p/',
     color: 'hover:bg-[#0077b5] hover:border-[#0077b5]'
   }
 ];
@@ -309,7 +309,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className={`font-medium ${textHeading} mb-1`}>Email</h4>
-                  <a href="mailto:your.email@example.com" className={`${textBody} hover:${focusedColor}`}>
+                  <a href="mailto:kannan.nambiar9@gmail.com" className={`${textBody} hover:${focusedColor}`}>
                     kannan.nambiar9@gmail.com
                   </a>
                 </div>
@@ -324,7 +324,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className={`font-medium ${textHeading} mb-1`}>Phone</h4>
-                  <a href="tel:+1234567890" className={`${textBody} hover:${focusedColor}`}>
+                  <a href="tel:+971 54 403 4810" className={`${textBody} hover:${focusedColor}`}>
                     +91 83104 69810 | +971 54 403 4810
                   </a>
                 </div>
@@ -340,7 +340,7 @@ const Contact = () => {
                 <div>
                   <h4 className={`font-medium ${textHeading} mb-1`}>Location</h4>
                   <p className={textBody}>
-                    Dubai, UAE
+                    Bangalore, India | Dubai, UAE 
                   </p>
                 </div>
               </motion.div>

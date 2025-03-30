@@ -3,6 +3,12 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { AnimatePresence } from 'framer-motion'
 import { ThemeProvider } from '@/context/ThemeContext'
+import dynamic from 'next/dynamic'
+
+// Only import DevelopmentInfo in development mode
+const DevelopmentInfo = process.env.NODE_ENV === 'development'
+  ? dynamic(() => import('@/components/DevelopmentInfo'), { ssr: false })
+  : () => null
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -61,6 +67,8 @@ export default function RootLayout({
           <AnimatePresence mode="wait">
             {children}
           </AnimatePresence>
+          {/* Only render in development mode */}
+          {process.env.NODE_ENV === 'development' && <DevelopmentInfo />}
         </ThemeProvider>
       </body>
     </html>

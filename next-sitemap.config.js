@@ -1,18 +1,16 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://navneeth-portfolio.netlify.app',
-  generateRobotsTxt: true,
-  sitemapSize: 7000,
-  robotsTxtOptions: {
-    additionalSitemaps: [
-      'https://navneeth-portfolio.netlify.app/sitemap.xml',
-    ],
-    policies: [
-      {
-        userAgent: '*',
-        allow: '/',
-      },
-    ],
+  generateRobotsTxt: false,
+  generateIndexSitemap: false,
+  outDir: 'out',
+  exclude: ['/404', '/500'],
+  transform: async (config, path) => {
+    return {
+      loc: path,
+      changefreq: path === '/' ? 'daily' : 'weekly',
+      priority: path === '/' ? 1.0 : 0.8,
+      lastmod: new Date().toISOString(),
+    }
   },
-  exclude: ['/404'],
 } 

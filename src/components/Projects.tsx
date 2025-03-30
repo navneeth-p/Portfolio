@@ -13,7 +13,7 @@ const projects = [
     detailedDescription: "A comprehensive platform connecting farmers directly with consumers using advanced geolocation algorithms. The system features a 10km radius smart discovery, role-based access controls, multi-factor authentication, and end-to-end encrypted messaging for secure negotiations.",
     image: "/projects/ecommerce.jpg",
     technologies: ["React", "TypeScript", "Node.js", "MongoDB", "AWS", "Geolocation API", "Socket.io"],
-    link: "#",
+    link: "/",
     features: [
       "Dynamic product discovery based on location",
       "Secure user authentication and authorization",
@@ -27,7 +27,7 @@ const projects = [
     detailedDescription: "An analytical tool that automatically discovers business processes from event logs and transaction data. The system visualizes process flows, identifies bottlenecks, and provides recommendations for workflow optimization based on historical data patterns.",
     image: "/projects/dashboard.jpg",
     technologies: ["Python", "Pandas", "Data Analysis", "Visualization", "Process Mining", "Jupyter", "Matplotlib"],
-    link: "#",
+    link: "/",
     features: [
       "Automated workflow discovery from raw data",
       "Interactive process flow visualization",
@@ -41,7 +41,7 @@ const projects = [
     detailedDescription: "A deep learning system that uses convolutional neural networks to automatically classify astronomical images. The model was trained on a large dataset of stellar objects and optimized through architecture exploration, achieving 90.08% accuracy on test data.",
     image: "/projects/data-pipeline.jpg",
     technologies: ["Python", "TensorFlow", "CNN", "Deep Learning", "Keras", "Astronomy", "Image Processing"],
-    link: "#",
+    link: "https://github.com/navneeth-p/SDSS-ML",
     features: [
       "Automated classification of stellar objects",
       "Optimized CNN architecture with 90.08% accuracy",
@@ -185,7 +185,10 @@ const Projects = () => {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover"
                   loading="lazy"
-                  unoptimized
+                  {...(process.env.NODE_ENV === 'development' 
+                    ? { placeholder: 'blur', blurDataURL: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QCBhuQAAAABJRU5ErkJggg==' } 
+                    : { unoptimized: true }
+                  )}
                 />
                 <div className={`absolute inset-0 ${theme === 'dark' ? 'bg-gradient-to-t from-dark to-transparent' : 'bg-gradient-to-t from-white/80 to-transparent'}`}></div>
               </motion.div>
@@ -248,7 +251,10 @@ const Projects = () => {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                     className="object-cover"
                     priority
-                    unoptimized
+                    {...(process.env.NODE_ENV === 'development' 
+                      ? { placeholder: 'blur', blurDataURL: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QCBhuQAAAABJRU5ErkJggg==' } 
+                      : { unoptimized: true }
+                    )}
                   />
                   <div className={`absolute inset-0 ${theme === 'dark' ? 'bg-gradient-to-t from-dark to-transparent' : 'bg-gradient-to-t from-white/90 to-transparent'}`}></div>
                   <button 

@@ -1,81 +1,101 @@
 # Portfolio Website
 
-A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. This website showcases my work as a Full Stack Developer, Data Engineer, and Business Analyst.
+A modern, responsive portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Features
 
-- 🎨 Modern and clean design
-- 📱 Fully responsive layout
-- ⚡ Fast performance with Next.js
-- 🎭 Smooth animations with Framer Motion
-- 🎯 SEO optimized
-- 📝 Contact form for easy communication
+- Responsive design for all device sizes
+- Dark mode/light mode toggle with system preference detection
+- Smooth animations and transitions
+- Server-side rendering with static export for optimal performance
+- Modern, professional UI with interactive elements
+- SEO optimized with metadata and sitemap generation
 
 ## Tech Stack
 
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-- React Icons
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Deployment**: Netlify
+- **Icons**: React Icons
 
-## Getting Started
+## Development
 
-1. Clone the repository:
+### Prerequisites
+
+- Node.js (v18.17.0 or later)
+- npm (v9.6.7 or later)
+
+### Getting Started
+
+1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone <repository-url>
+   cd portfolio
    ```
 
-2. Install dependencies:
+2. Install dependencies
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
-3. Run the development server:
+3. Run the development server
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+### Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the application for production
+- `npm run start` - Start the production server
+- `npm run export` - Export the application as static HTML
+- `npm run serve` - Serve the static export locally
+- `npm run lint` - Run ESLint
+- `npm run clean` - Clean build directories
+- `npm run analyze` - Analyze the bundle size
+
+## Deployment on Netlify
+
+This project is configured for seamless deployment on Netlify.
+
+### Automatic Deployment (recommended)
+
+1. Push your repository to GitHub (or GitLab, Bitbucket)
+2. Create a new site on Netlify and connect it to your repository
+3. Netlify will automatically detect the build settings from `netlify.toml`
+4. Trigger a deployment by pushing to your repository
+
+### Manual Deployment
+
+1. Build the project locally:
+   ```bash
+   npm run clean
+   npm run build
+   ```
+
+2. Deploy using Netlify CLI:
+   ```bash
+   npx netlify deploy --prod --dir=out
+   ```
 
 ## Project Structure
 
-```
-portfolio-website/
-├── public/
-│   └── projects/         # Project images
-├── src/
-│   ├── app/             # Next.js app directory
-│   │   ├── layout.tsx   # Root layout
-│   │   └── page.tsx     # Home page
-│   ├── components/      # React components
-│   │   ├── Navbar.tsx
-│   │   ├── Projects.tsx
-│   │   └── Contact.tsx
-│   └── styles/         # Global styles
-└── package.json
-```
+- `/src/app` - Next.js app router routes and layouts
+- `/src/components` - Reusable UI components
+- `/src/context` - React context providers (e.g., theme)
+- `/public` - Static assets like images and icons
 
 ## Customization
 
-1. Update the content in `src/app/page.tsx` with your personal information
-2. Add your project images to the `public/projects` directory
-3. Update the project information in `src/components/Projects.tsx`
-4. Customize the color scheme in `tailwind.config.js`
-5. Update contact information in `src/components/Contact.tsx`
-
-## Deployment
-
-The easiest way to deploy this website is using [Vercel](https://vercel.com):
-
-1. Push your code to GitHub
-2. Import your repository in Vercel
-3. Deploy!
+- Edit `/src/app/layout.tsx` to change global metadata and layout
+- Modify `/src/context/ThemeContext.tsx` to adjust theme settings
+- Update component files in `/src/components` to change UI elements
+- Replace images in `/public` directory with your own assets
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+MIT 
