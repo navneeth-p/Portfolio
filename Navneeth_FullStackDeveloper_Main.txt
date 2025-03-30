@@ -1,0 +1,59 @@
+Navneeth Premanand
+Dubai, UAE | kannan.nambiar9@gmail.com | (+971) 544034810 LinkedIn | Portfolio
+
+PROFESSIONAL SUMMARY
+Full-Stack Developer with expertise in designing and building scalable web applications and robust data solutions. Skilled in leveraging Python, SQL, MongoDB, and AWS to create dynamic, data-driven applications. Adept at transforming complex business requirements into practical, user-focused solutions, utilizing modern front-end and back-end technologies. Experienced in full application lifecycle development, from concept to deployment, with a strong understanding of Agile and DevOps methodologies to ensure efficient, iterative project delivery.
+
+TECHNICAL SKILLS
+•	Programming Languages: Python, JavaScript, TypeScript, SQL, R
+•	Data Engineering: ETL Pipelines, Data Warehousing, Microservices Architecture
+•	Full Stack Technologies: React, Node.js, MERN Stack, RESTful APIs
+•	Cloud & DevOps: AWS (EC2, Route 53, IAM), Continuous Integration
+•	Databases: MongoDB, SQL, NoSQL Database Management
+•	Machine Learning & AI: TensorFlow, Keras, Feature Engineering, Model Deployment
+•	Data Visualization: Tableau, Power BI, Advanced Dashboarding
+•	Tools: Git, Redux, Data Pipeline Optimization
+
+PROFESSIONAL EXPERIENCE
+Full Stack Developer - Freelance	Oct 2024 - Present
+Rynova Trade LLC	Dubai, UAE
+•	Architected and deployed a production-grade corporate website on AWS EC2 with custom domain configu- ration and SSL certification.
+•	Developed a modern React application with TypeScript, featuring responsive design and interactive product showcases.
+•	Configured email servers and implemented monitoring solutions for optimized performance.
+•	Implemented a comprehensive DevOps pipeline with automated deployments and environment management.
+Agro Marketplace	Mar 2025 - Present
+Freelance	Kozhikode
+•	Designed comprehensive technical architecture for agricultural digital marketplace using microservices archi- tecture.
+•	Developed advanced geolocation matching algorithm with 10km radius calculation and dynamic product discovery.
+•	Implemented multi-layered security system including role-based access control and multi-factor authentica- tion.
+•	Created scalable communication platform with encrypted messaging and negotiation workflows, supporting multiple transaction models.
+Business Process Automation - Intern	Feb 2024 - Apr 2024
+ACZ Global Pvt Ltd	Bengaluru
+•	Led business process documentation initiatives in collaboration with a 5-member team.
+•	Developed detailed System Requirement Specifications (SRS) focusing on data flow and analysis requirements.
+•	Mapped and analyzed existing workflows to identify optimization opportunities.
+•	Created end-to-end business flow documentation aligned with predictive model development goals.
+ 
+AI Engineering - Intern	Jun 2023
+Open Weaver	Bengaluru
+•	Implemented and evaluated various AI/ML models through hands-on applications.
+•	Created detailed analytical reports and visualizations to communicate findings.
+•	Successfully completed complex project deliverables focusing on artificial intelligence implementations.
+Full Stack Developer - Freelance	Sep 2021 - Jul 2022
+ACZ Global Pvt Ltd	Bengaluru
+•	Designed and developed an ERP/HRMS solution serving 40+ active users using MERN Stack.
+•	Implemented AWS infrastructure utilizing EC2, Route53, and IAM services.
+•	Spearheaded a digital transformation initiative that achieved full paperless documentation.
+•	Implemented continuous system monitoring and performance optimization strategies, ensuring high reliability and operational efficiency.
+
+EDUCATION
+Master of Science in Data Science	2022 - 2024
+Christ University	Bengaluru
+Bachelor of Science in Computer Science, Mathematics and Statistics	2018 - 2021
+Christ University	Bengaluru
+CERTIFICATIONS
+•	Cybersecurity and Internet of Things - University System of Georgia (Coursera)
+•	Google Data Analytics Professional Certificate - Coursera
+•	Cyber Law - Christ University
+•	Data Science 101 by IBM
+•	Business Analysis & Process Management - Coursera

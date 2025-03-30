@@ -1,0 +1,91 @@
+Navneeth Premanand
+Python Developer
+ 
+kannan.nambiar9@gmail.com  
+
++91 8310469810
+
+Bangalore
+ 
+
+
+Python Developer with expertise in building data-driven solutions, process automation, and full-stack development. Skilled in Python, SQL, and cloud technologies, with experience in developing ERP/HRMS systems, optimizing workﬂows, and implementing AI-driven models. Proficient in backend development, API integration, and database management, with a strong foundation in machine learning, data visualization, and business process automation.
+
+ 
+EDUCATION
+ 
+Master of Science in Data Science
+Christ University
+08/2022 - 05/2024	Bengaluru
+Bachelor of Science in Computer Science, Mathematics and Statistics
+Christ University
+06/2018 - 05/2021	Bengaluru
+ 
+SKILLS
+
+
+
+
+ 
+
+ 
+WORK EXPERIENCE
+ 
+Business Process Automation Intern
+ACZ Global Pvt Ltd
+02/2024 - 04/2024	Bengaluru
+Achievements/Tasks
+Led comprehensive business process documentation initiatives in collaboration with a 5-member team
+Developed detailed System Requirement Specifications (SRS) focusing on data ﬂow and analysis requirements
+Mapped and analyzed existing workﬂows to identify optimization opportunities
+Created end-to-end business ﬂow documentation aligned with predictive model development goals
+
+AI Engineering Intern
+Open Weaver
+06/2023 - 06/2023
+Achievements/Tasks
+Implemented and evaluated various AI/ML models through hands-on applications
+Created detailed analytical reports and visualizations to communicate findings
+Successfully completed complex project deliverables focusing on artificial intelligence implementations
+
+Full Stack Developer
+ACZ Global Pvt Ltd
+09/2021 - 07/2022	Bengaluru
+Achievements/Tasks
+Designed and developed an ERP/HRMS solution serving 40+ active users using MERN Stack
+Implemented comprehensive AWS infrastructure utilizing EC2, Route53, and IAM services
+ 
+
+
+
+PROJECTS
+MinedFul — Process Mining Tool (06/2023 - 10/2023)
+Developed a process mining tool using Python and Pandas to analyze large datasets, automatically discover workﬂows, and identify bottlenecks. Created interactive dashboards for visualizing process ﬂows and performance metrics
+Stellar Image Classification Using CNN (01/2023 - 03/2023)
+Developed and optimized CNN architectures for classifying astronomical observations, achieving 90.08% accuracy.
+Implemented a data preprocessing pipeline and published research findings on the optimized CNN performance.
+COVID-19 Detection System (03/2021 - 05/2021)
+Built a CNN-based COVID-19 detection system using chest X- rays. Deployed the model as a Flask web application for real- time image processing and prediction.
+
+
+CERTIFICATES
+Cybersecurity and Internet of Things- University System of Georgia (Coursera)
+Excel for Data Analytics and Automation- Christ University
+Cyber Law- Christ University
+
+
+LANGUAGES
+ 
+Successfully digitized all paperwork, achieving 100% reduction in physical documentation,enabling compre hensive data analysis
+Maintained and optimized system performance through regular monitoring and updates
+ 
+English
+Full Professional Proficiency
+
+Malayalam
+Native or Bilingual Proficiency
+ 
+Hindi
+Professional Working Proficiency
+Kannada
+Limited Working Proficiency

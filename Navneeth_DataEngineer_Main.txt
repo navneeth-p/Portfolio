@@ -1,0 +1,48 @@
+Navneeth Premanand
+Bengaluru, Karnataka | kannan.nambiar9@gmail.com | (+91) 8310469810 LinkedIn | Portfolio
+
+PROFESSIONAL SUMMARY
+Data Engineer with expertise in Python, SQL, and MongoDB, experienced in building scalable data pipelines and deploying solutions on AWS (EC2, Route 53, IAM). Skilled in data preprocessing, transformation, and workflow automation using Pandas and NumPy. Strong background in machine learning, deep learning, and process optimiza- tion, with hands-on experience in developing end-to-end data solutions. Adept at Agile development and DevOps practices, ensuring efficient and reliable data processing in distributed architectures.
+
+TECHNICAL SKILLS
+•	Programming Languages: Python, SQL, R, JavaScript, HTML
+•	Machine Learning & AI: TensorFlow, Keras, Scikit-learn, CNN, ResNet, VGG16, Feature Engineering, Model Deployment
+•	Data Analysis: Pandas, NumPy, Matplotlib, Statistical Analysis, Data Preprocessing
+•	Cloud & DevOps: AWS (EC2, Route53, IAM), Git, Version Control
+•	Visualization & BI: Tableau, Power BI, Data Visualization, Dashboard Development
+•	Databases & Tools: SQL, MongoDB, Excel
+
+PROFESSIONAL EXPERIENCE
+Full Stack Developer - Freelance	Oct 2024 - Present
+Rynova Trade LLC	Dubai, UAE
+•	Architected and deployed a production-grade corporate website on AWS EC2 with custom domain configu- ration and SSL certification.
+•	Developed a modern React application with TypeScript, featuring responsive design and interactive product showcases.
+•	Configured email servers and implemented monitoring solutions for optimized performance.
+•	Implemented a comprehensive DevOps pipeline with automated deployments and environment management.
+Business Process Automation - Intern	Feb 2024 - Apr 2024
+ACZ Global Pvt Ltd	Bengaluru
+•	Led business process documentation initiatives in collaboration with a 5-member team.
+•	Developed detailed System Requirement Specifications (SRS) focusing on data flow and analysis requirements.
+•	Mapped and analyzed existing workflows to identify optimization opportunities.
+•	Created end-to-end business flow documentation aligned with predictive model development goals.
+AI Engineering - Intern	Jun 2023
+Open Weaver	Bengaluru
+•	Implemented and evaluated various AI/ML models through hands-on applications.
+•	Created detailed analytical reports and visualizations to communicate findings.
+•	Successfully completed complex project deliverables focusing on artificial intelligence implementations.
+Full Stack Developer - Freelance	Sep 2021 - Jul 2022
+ACZ Global Pvt Ltd	Bengaluru
+•	Designed and developed an ERP/HRMS solution serving 40+ active users using MERN Stack.
+•	Implemented AWS infrastructure utilizing EC2, Route53, and IAM services.
+•	Spearheaded a digital transformation initiative that achieved full paperless documentation.
+•	Implemented continuous system monitoring and performance optimization strategies, ensuring high reliability and operational efficiency.
+ 
+EDUCATION
+Master of Science in Data Science	2022 - 2024
+Christ University	Bengaluru
+Bachelor of Science in Computer Science, Mathematics and Statistics	2018 - 2021
+Christ University	Bengaluru
+CERTIFICATIONS
+•	Cybersecurity and Internet of Things - University System of Georgia (Coursera)
+•	Excel for Data Analytics and Automation - Christ University
+•	Cyber Law - Christ University

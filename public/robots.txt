@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://navneeth-portfolio.netlify.app
+
+# Sitemaps
+Sitemap: https://navneeth-portfolio.netlify.app/sitemap.xml

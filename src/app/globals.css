@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 248, 250, 252;
+  --background-end-rgb: 241, 245, 249;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+  
+  html {
+    @apply bg-dark text-light;
+  }
+  
+  html.light-mode {
+    @apply bg-light text-dark;
+    --foreground-rgb: 15, 23, 42;
+    --background-start-rgb: 248, 250, 252;
+    --background-end-rgb: 241, 245, 249;
+  }
+  
+  html:not(.light-mode) {
+    --foreground-rgb: 248, 250, 252;
+    --background-start-rgb: 17, 24, 39;
+    --background-end-rgb: 31, 41, 55;
+  }
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    );
+    min-height: 100vh;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+html.light-mode ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 5px;
+}
+
+html.light-mode ::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 5px;
+}
+
+html.light-mode ::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+html:not(.light-mode) ::-webkit-scrollbar-track {
+  background: #1e293b;
+  border-radius: 5px;
+}
+
+html:not(.light-mode) ::-webkit-scrollbar-thumb {
+  background: #4F46E5;
+  border-radius: 5px;
+}
+
+html:not(.light-mode) ::-webkit-scrollbar-thumb:hover {
+  background: #4338CA;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Button styles */
+  .btn {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-200;
+  }
+
+  /* Dark mode buttons */
+  html:not(.light-mode) .btn-primary {
+    @apply bg-primary text-white hover:bg-secondary shadow-md hover:shadow-lg shadow-primary/20 hover:shadow-primary/30;
+  }
+
+  html:not(.light-mode) .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white shadow-sm hover:shadow-md hover:shadow-primary/20;
+  }
+
+  /* Light mode buttons */
+  html.light-mode .btn-primary {
+    @apply bg-primary text-white hover:bg-secondary shadow-md hover:shadow-lg shadow-primary/20 hover:shadow-primary/30;
+  }
+
+  html.light-mode .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white shadow-sm hover:shadow-md;
+  }
+
+  /* Section titles */
+  .section-title {
+    @apply text-3xl font-bold mb-8 text-center;
+  }
+  
+  html:not(.light-mode) .section-title {
+    @apply text-light;
+  }
+  
+  html.light-mode .section-title {
+    @apply text-dark;
+  }
+
+  /* Cards */
+  .card {
+    @apply rounded-xl shadow-lg p-6 transition-all duration-200 hover:shadow-xl;
+  }
+
+  html.light-mode .card {
+    @apply bg-white text-dark shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.1)];
+  }
+
+  html:not(.light-mode) .card {
+    @apply bg-dark text-light shadow-[0_8px_30px_rgb(0,0,0,0.3)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.4)];
+  }
+  
+  /* Light mode specific styles */
+  html.light-mode section {
+    @apply bg-gradient-to-b from-white to-light/50;
+  }
+  
+  html.light-mode section:nth-of-type(even) {
+    @apply bg-gradient-to-b from-blue-50 to-white;
+  }
+  
+  /* Dark mode specific styles */
+  html:not(.light-mode) section:nth-of-type(even) {
+    @apply bg-gradient-to-b from-dark/90 to-dark;
+  }
+}

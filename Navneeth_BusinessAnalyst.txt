@@ -1,0 +1,59 @@
+Navneeth Premanand
+Dubai, UAE | kannan.nambiar9@gmail.com | (+971) 544034810 LinkedIn | Portfolio
+
+PROFESSIONAL SUMMARY
+Business Analyst with a strong technical foundation in full-stack development and data engineering, specializing in translating complex business requirements into innovative, data-driven solutions. Proficient in Python, SQL, and MongoDB, with expertise in cloud infrastructure (AWS), data pipelines, and scalable web applications. Adept at stakeholder collaboration, requirement gathering, and process mapping to align technology solutions with strategic business objectives. Experienced in building interactive dashboards, automating workflows, and optimizing busi ness processes using machine learning and advanced data analytics. Committed to Agile development and DevOps practices to drive efficiency, reliability, and growth in digital transformation initiatives
+
+TECHNICAL SKILLS
+•	Business Analysis: Requirements Engineering, Process Mapping, Strategic Planning
+•	Data Engineering: ETL Pipelines, Data Warehousing, System Architecture Design
+•	Programming: Python, SQL, R, Data Analysis Tools
+•	Business Intelligence: Tableau, Power BI, Advanced Dashboard Development
+•	Project Management: Agile Methodologies, Data-Driven Process Optimization
+•	Cloud Technologies: AWS Infrastructure, Cloud Solution Design
+•	Machine Learning: Feature Engineering, Predictive Modeling
+•	Tools: Excel, MongoDB, Data Visualization Techniques
+
+PROFESSIONAL EXPERIENCE
+Full Stack Developer - Freelance	Oct 2024 - Present
+Rynova Trade LLC	Dubai, UAE
+•	Architected and deployed a production-grade corporate website on AWS EC2 with custom domain configu- ration and SSL certification.
+•	Developed a modern React application with TypeScript, featuring responsive design and interactive product showcases.
+•	Configured email servers and implemented monitoring solutions for optimized performance.
+•	Implemented a comprehensive DevOps pipeline with automated deployments and environment management.
+Agro Marketplace	Mar 2025 - Present
+Freelance	Kozhikode
+•	Designed comprehensive technical architecture for agricultural digital marketplace using microservices archi- tecture.
+•	Developed advanced geolocation matching algorithm with 10km radius calculation and dynamic product discovery.
+•	Implemented multi-layered security system including role-based access control and multi-factor authentica- tion.
+•	Created scalable communication platform with encrypted messaging and negotiation workflows, supporting multiple transaction models.
+Business Process Automation - Intern	Feb 2024 - Apr 2024
+ACZ Global Pvt Ltd	Bengaluru
+•	Led business process documentation initiatives in collaboration with a 5-member team.
+•	Developed detailed System Requirement Specifications (SRS) focusing on data flow and analysis requirements.
+•	Mapped and analyzed existing workflows to identify optimization opportunities.
+ 
+•	Created end-to-end business flow documentation aligned with predictive model development goals.
+AI Engineering - Intern	Jun 2023
+Open Weaver	Bengaluru
+•	Implemented and evaluated various AI/ML models through hands-on applications.
+•	Created detailed analytical reports and visualizations to communicate findings.
+•	Successfully completed complex project deliverables focusing on artificial intelligence implementations.
+Full Stack Developer - Freelance	Sep 2021 - Jul 2022
+ACZ Global Pvt Ltd	Bengaluru
+•	Designed and developed an ERP/HRMS solution serving 40+ active users using MERN Stack.
+•	Implemented AWS infrastructure utilizing EC2, Route53, and IAM services.
+•	Spearheaded a digital transformation initiative that achieved full paperless documentation.
+•	Implemented continuous system monitoring and performance optimization strategies, ensuring high reliability and operational efficiency.
+
+EDUCATION
+Master of Science in Data Science	2022 - 2024
+Christ University	Bengaluru
+Bachelor of Science in Computer Science, Mathematics and Statistics	2018 - 2021
+Christ University	Bengaluru
+CERTIFICATIONS
+•	Cybersecurity and Internet of Things - University System of Georgia (Coursera)
+•	Google Data Analytics Professional Certificate - Coursera
+•	Cyber Law - Christ University
+•	Data Science 101 by IBM
+•	Business Analysis & Process Management - Coursera
