@@ -3,3 +3,6 @@
 
 # Netlify redirects for client-side routing
 /*  /index.html  200
+
+# Specific asset redirects
+/Navneeth_P.JPG  /Navneeth_P.JPG  200

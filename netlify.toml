@@ -1,6 +1,7 @@
 [build]
   command = "npm run netlify-build"
   publish = "out"
+  ignore = "git diff --quiet HEAD^ HEAD -- . ':!node_modules'"
 
 # Handle SPA routing
 [[redirects]]
