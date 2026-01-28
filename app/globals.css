@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* Minimal tokens (so components are consistent) */
+  --bg: #ffffff;
+  --fg: #0f172a;
+  --muted: #475569;
+  --muted-2: #64748b;
+  --border: rgb(226 232 240);
+
+  color-scheme: light dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  @apply antialiased;
+}
+
+/* Smooth scrolling + nicer focus */
+html {
+  scroll-behavior: smooth;
+}
+
+:root.dark,
+html.dark {
+  --bg: #020617;
+  --fg: #e2e8f0;
+  --muted: #94a3b8;
+  --muted-2: #94a3b8;
+  --border: rgb(30 41 59);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgb(59 130 246 / 35%);
+}
+
+/* Simple card / divider utilities */
+.card {
+  @apply rounded-2xl border bg-white shadow-sm;
+  border-color: var(--border);
+}
+.dark .card {
+  @apply bg-slate-950;
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-10;
+}
+
+/* Backward-compatible helpers while we restyle components */
+.ui-card {
+  @apply rounded-2xl border bg-white shadow-sm;
+  border-color: var(--border);
+}
+.dark .ui-card {
+  @apply bg-slate-950;
+}
+.ui-divider {
+  border-top: 1px solid var(--border);
+}
+.ui-ring {
+  outline: none;
+  box-shadow: 0 0 0 4px rgb(59 130 246 / 35%);
+}
+
