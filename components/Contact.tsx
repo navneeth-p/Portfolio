@@ -6,8 +6,6 @@ import {
   FaEnvelope,
   FaPhone,
   FaMapMarkerAlt,
-  FaLinkedin,
-  FaGithub,
   FaPaperPlane,
   FaCheck,
   FaDownload,
@@ -231,39 +229,6 @@ export default function Contact() {
                   <FaDownload />
                   Download Resume (BA)
                 </motion.a>
-
-                <div className="flex gap-2">
-                  <motion.a
-                    href="https://linkedin.com/in/navneeth-premanand"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl border border-[color:var(--border)] px-4 py-2.5 text-sm font-semibold flex-1"
-                    style={{
-                      background:
-                        "color-mix(in oklab, var(--card-solid) 80%, transparent)",
-                    }}
-                    whileHover={{ y: -2 }}
-                    whileTap={{ scale: 0.98 }}
-                  >
-                    <FaLinkedin />
-                    LinkedIn
-                  </motion.a>
-                  <motion.a
-                    href="https://github.com/navneeth-p"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl border border-[color:var(--border)] px-4 py-2.5 text-sm font-semibold flex-1"
-                    style={{
-                      background:
-                        "color-mix(in oklab, var(--card-solid) 80%, transparent)",
-                    }}
-                    whileHover={{ y: -2 }}
-                    whileTap={{ scale: 0.98 }}
-                  >
-                    <FaGithub />
-                    GitHub
-                  </motion.a>
-                </div>
               </div>
             </div>
           </motion.div>

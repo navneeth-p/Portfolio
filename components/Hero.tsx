@@ -50,7 +50,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen w-full overflow-hidden flex items-center"
+      className="relative min-h-[100dvh] w-full overflow-hidden flex items-center"
     >
       {/* Soft spotlight + subtle blobs (playful but minimal) */}
       <div className="absolute inset-0">
@@ -129,9 +129,6 @@ export default function Hero() {
         <Container>
           <div className="space-y-12">
             <motion.div className="space-y-6" variants={itemVariants}>
-              {/* <motion.p className="text-[11px] uppercase tracking-[0.28em] text-[color:var(--muted-2)] font-semibold">
-                NAVNEETH PREMANAND
-              </motion.p> */}
               <motion.h1
                 className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl lg:text-7xl leading-[1.03]"
                 variants={itemVariants}
@@ -154,13 +151,13 @@ export default function Hero() {
             </motion.div>
 
             <motion.div
-              className="flex flex-wrap items-center gap-3"
+              className="flex flex-wrap items-center gap-4"
               variants={itemVariants}
             >
               <motion.div whileHover={{ y: -2 }} whileTap={{ scale: 0.98 }}>
                 <ButtonLink
                   href="/BA-Navneeth-DxB.txt"
-                  download="Navneeth-Premanand-Resume-BA.txt"
+                  download="BA-Navneeth-DxB.txt"
                   variant="primary"
                 >
                   <FaDownload className="text-base" />
@@ -205,19 +202,25 @@ export default function Hero() {
 
             {/* Profile image - optimized for LCP with priority loading */}
             <motion.div className="mt-8" variants={itemVariants}>
-              <div className="flex items-center gap-4">
-                <div className="hidden sm:block rounded-full overflow-hidden w-20 h-20">
+              <div className="flex items-center gap-5">
+                <div className="rounded-full overflow-hidden w-16 h-16 sm:w-20 sm:h-20 border-2 border-[color:var(--border)] shrink-0">
                   <Image
                     src="/Navneeth_p.jpg"
                     alt="Navneeth Premanand"
                     width={80}
                     height={80}
+                    className="w-full h-full object-cover"
                     priority
                   />
                 </div>
-                <div className="text-sm text-[color:var(--muted)]">
-                  {/* Bengaluru · Dubai · Open to BA, DA, DE, Full‑stack roles */}
-                  Bengaluru · Dubai
+                <div className="space-y-1">
+                  <div className="text-sm font-semibold text-[color:var(--fg)]">
+                    Navneeth Premanand
+                  </div>
+                  <div className="text-xs sm:text-sm text-[color:var(--muted)] flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                    Bengaluru · Dubai
+                  </div>
                 </div>
               </div>
             </motion.div>

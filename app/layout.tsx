@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "Analytics",
   ],
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   metadataBase: new URL("https://navneeth-premanand.com"),
   openGraph: {

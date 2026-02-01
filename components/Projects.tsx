@@ -97,13 +97,13 @@ export default function Projects() {
         animate={isInView ? "visible" : "hidden"}
         className="mx-auto w-full max-w-5xl"
       >
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
           {projects.map((project, index) => (
             <motion.article
               key={project.title}
               variants={itemVariants}
               whileHover={{ y: -3 }}
-              className="ui-card ui-noise p-7 sm:p-9 shadow-none"
+              className="ui-card ui-noise p-7 sm:p-8 lg:p-10 shadow-none flex flex-col h-full"
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="space-y-2">
@@ -154,11 +154,11 @@ export default function Projects() {
                 </div>
               </div>
 
-              <p className="mt-4 text-sm sm:text-base leading-relaxed text-[color:var(--muted)]">
+              <p className="mt-4 text-sm sm:text-base leading-relaxed text-[color:var(--muted)] flex-grow">
                 {project.description}
               </p>
 
-              <div className="mt-6 flex items-center justify-between gap-2">
+              <div className="mt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech) => (
                     <span
@@ -174,13 +174,13 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 shrink-0">
                   {project.paper && (
                     <a
                       href={project.paper}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 rounded-xl border border-[color:var(--border)] px-4 py-2 text-xs font-semibold hover:text-[color:var(--accent)]"
+                      className="inline-flex items-center gap-2 rounded-xl border border-[color:var(--border)] px-4 py-2.5 text-xs font-semibold hover:text-[color:var(--accent)] hover:border-[color:var(--accent)] transition-colors"
                       style={{
                         background:
                           "color-mix(in oklab, var(--card-solid) 80%, transparent)",
@@ -195,7 +195,7 @@ export default function Projects() {
                     href={project.repo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl border border-[color:var(--border)] px-4 py-2 text-xs font-semibold"
+                    className="inline-flex items-center gap-2 rounded-xl border border-[color:var(--border)] px-4 py-2.5 text-xs font-semibold hover:text-[color:var(--accent)] hover:border-[color:var(--accent)] transition-colors"
                     style={{
                       background:
                         "color-mix(in oklab, var(--card-solid) 80%, transparent)",

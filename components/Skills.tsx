@@ -16,32 +16,38 @@ import {
   SiTableau,
   SiGit,
   SiDocker,
-  SiPostgresql,
   SiKeras,
   SiScikitlearn,
+  SiJira,
+  SiConfluence,
+  SiTrello,
+  SiPowerbi,
+  SiPandas,
+  SiNumpy,
 } from "react-icons/si";
+import { HiUsers, HiDocumentText, HiOutlineLightBulb } from "react-icons/hi2";
 import { Section } from "./ui/Section";
 
 const skillGroups = [
   {
     label: "Business Analysis & Requirements",
     items: [
-      { name: "Stakeholder Management", icon: SiGit },
-      { name: "Requirements Gathering", icon: SiGit },
-      { name: "Process Mapping", icon: SiGit },
-      { name: "User Stories", icon: SiGit },
-      { name: "Agile Methodologies", icon: SiGit },
-      { name: "Data Storytelling", icon: SiGit },
+      { name: "Stakeholder Management", icon: HiUsers },
+      { name: "Requirements Gathering", icon: HiDocumentText },
+      { name: "Process Mapping", icon: HiOutlineLightBulb },
+      { name: "User Stories", icon: SiJira },
+      { name: "Agile Methodologies", icon: SiTrello },
+      { name: "Data Storytelling", icon: SiTableau },
     ],
   },
   {
     label: "Data Analysis & SQL",
     items: [
       { name: "Python", icon: SiPython },
-      { name: "Pandas & NumPy", icon: SiPython },
+      { name: "Pandas & NumPy", icon: SiPandas },
       { name: "SQL", icon: SiMysql },
       { name: "MongoDB", icon: SiMongodb },
-      { name: "Statistical Analysis", icon: SiPython },
+      { name: "Statistical Analysis", icon: SiNumpy },
       { name: "Data Pipelines", icon: SiPython },
     ],
   },
@@ -53,7 +59,7 @@ const skillGroups = [
       { name: "TypeScript", icon: SiTypescript },
       { name: "JavaScript", icon: SiJavascript },
       { name: "Tableau", icon: SiTableau },
-      { name: "Power BI", icon: SiTableau },
+      { name: "Power BI", icon: SiPowerbi },
     ],
   },
   {
@@ -92,12 +98,12 @@ const skillGroups = [
   {
     label: "Tools & Documentation",
     items: [
-      { name: "Lucidchart", icon: SiGit },
-      { name: "Visio", icon: SiGit },
-      { name: "Google Analytics", icon: SiGit },
-      { name: "Miro", icon: SiGit },
-      { name: "SRS Documentation", icon: SiGit },
-      { name: "Data Flow Diagramming", icon: SiGit },
+      { name: "Lucidchart", icon: HiDocumentText },
+      { name: "Visio", icon: HiOutlineLightBulb },
+      { name: "Google Analytics", icon: SiTableau },
+      { name: "Miro", icon: SiConfluence },
+      { name: "SRS Documentation", icon: HiDocumentText },
+      { name: "Data Flow Diagramming", icon: HiOutlineLightBulb },
     ],
   },
 ];

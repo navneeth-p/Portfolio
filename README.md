@@ -1,36 +1,34 @@
 # Navneeth Premanand - Portfolio Website
 
-A modern, interactive portfolio website showcasing AI/ML engineering expertise, built with Next.js, Three.js, and Framer Motion.
+A modern, professional portfolio website showcasing expertise in Business Analysis, Data Engineering, and Full-Stack Development. Built with Next.js, Tailwind CSS, and Framer Motion.
 
 ## 🚀 Features
 
-- **3D Interactive Neural Network**: Unique hero section with animated 3D neural network visualization
-- **Smooth Animations**: Powered by Framer Motion for fluid, engaging interactions
-- **Responsive Design**: Fully responsive across all devices
-- **Modern UI**: Dark theme with gradient accents and glow effects
-- **Interactive Components**: Hover effects, scroll animations, and dynamic transitions
-- **Skills Showcase**: Animated skill cards with category organization
-- **Experience Timeline**: Visual timeline with color-coded experiences
-- **Project Gallery**: Featured projects with 3D card effects
-- **Contact Form**: Animated contact section with social links
+- **Strategic Hero Section**: Highlights the bridge between business strategy and technical execution.
+- **Interactive Skills Grid**: Categorized technical and analytical skills with smooth animations.
+- **Professional Timeline**: Detailed experience in Business Analysis and Engineering.
+- **Modern UI/UX**: Clean, minimalist design with dark/light mode support (via Tailwind).
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Direct Downloads**: Easy access to resume and contact links.
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 16 (App Router)
+- **Framework**: Next.js 15+ (App Router)
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **3D Graphics**: Three.js, React Three Fiber, Drei
+- **Styling**: Tailwind CSS 4.0
 - **Animations**: Framer Motion
 - **Icons**: React Icons
 
 ## 📦 Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -54,29 +52,27 @@ portfolio/
 │   └── globals.css     # Global styles
 ├── components/
 │   ├── Navbar.tsx      # Navigation bar
-│   ├── Hero.tsx        # Hero section with 3D neural network
-│   ├── NeuralNetwork.tsx # 3D neural network component
-│   ├── Skills.tsx      # Skills showcase
-│   ├── Experience.tsx  # Experience timeline
-│   ├── Projects.tsx    # Projects gallery
-│   └── Contact.tsx     # Contact form
-└── public/             # Static assets
+│   ├── Hero.tsx        # Hero section with strategic positioning
+│   ├── Skills.tsx      # Categorized skills showcase
+│   ├── Experience.tsx  # Professional experience timeline
+│   ├── Projects.tsx    # Key projects and outcomes
+│   └── Contact.tsx     # Contact and social links
+└── public/             # Optimized assets (Resume, Profile Picture)
 ```
 
 ## 🎨 Design Philosophy
 
-This portfolio breaks away from conventional design patterns with:
-- **Data Universe Theme**: Neural network visualization representing AI/ML expertise
-- **Bold Color Palette**: Cyan, purple, and orange gradients
-- **Interactive Elements**: Every component responds to user interaction
-- **Smooth Transitions**: Seamless scroll animations and hover effects
-- **Modern Typography**: Clean, readable fonts with gradient text effects
+- **Clarity & Precision**: Reflects a Business Analyst's focus on clear communication.
+- **Minimalist Aesthetic**: Professional dark theme with focused accent colors.
+- **Information Hierarchy**: Prioritizes key value propositions and measurable outcomes.
+- **Technical Depth**: Subtle animations that enhance rather than distract.
 
 ## 🔧 Customization
 
 ### Update Personal Information
 
 Edit the following files:
+
 - `components/Hero.tsx` - Name, title, and social links
 - `components/Contact.tsx` - Contact information
 - `components/Experience.tsx` - Work experience
@@ -86,11 +82,12 @@ Edit the following files:
 ### Color Scheme
 
 Modify colors in `app/globals.css`:
+
 ```css
 :root {
-  --accent: #00d4ff;        /* Cyan */
+  --accent: #00d4ff; /* Cyan */
   --accent-secondary: #7c3aed; /* Purple */
-  --accent-tertiary: #f59e0b;  /* Orange */
+  --accent-tertiary: #f59e0b; /* Orange */
 }
 ```
 
@@ -111,6 +108,7 @@ Modify colors in `app/globals.css`:
 ### Other Platforms
 
 The site can be deployed to any platform that supports Next.js:
+
 - Netlify
 - AWS Amplify
 - DigitalOcean App Platform
@@ -123,6 +121,7 @@ This project is open source and available for personal use.
 ## 👤 Author
 
 **Navneeth Premanand**
+
 - Email: kannan.nambiar9@gmail.com
 - LinkedIn: [navneeth-premanand](https://linkedin.com/in/navneeth-premanand)
 - Location: Dubai, UAE

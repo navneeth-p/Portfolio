@@ -5,12 +5,17 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
-// import FloatingGeometry from '@/components/FloatingGeometry'; // Temporarily disabled for build
+import dynamic from "next/dynamic";
+
+const FloatingGeometry = dynamic(
+  () => import("@/components/FloatingGeometry"),
+  { ssr: false },
+);
 
 export default function Home() {
   return (
     <main className="relative w-full overflow-x-hidden flex flex-col items-center">
-      {/* <FloatingGeometry /> */}
+      <FloatingGeometry />
       <Navbar />
       <div id="home" className="w-full">
         <Hero />
